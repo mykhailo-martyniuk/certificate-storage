@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 4px;
+  border: 1px solid #232323;
+  cursor: pointer;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #EBEBEB;
+}

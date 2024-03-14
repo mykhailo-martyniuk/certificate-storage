@@ -1,0 +1,22 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "printWidth": 120,
+  "typescriptEnable": ["typescript"],
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": ["*.component.html"],
+      "options": {
+        "parser": "angular"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<span class="delete-icon" (click)="handleDeleteClick()">x</span>
+<div class="item" [class.selected]="selected">
+  <span>{{ title }}</span>
+  <span *ngIf="selected">></span>
+</div>

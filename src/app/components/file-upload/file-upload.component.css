@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 1px dashed #ccc;
+  padding: 30px 30px 50px 30px;
+  text-align: center;
+  cursor: pointer;
+  min-height: 300px;
+
+}
+
+.wrapper p {
+  margin: 0;
+}
+

@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <div class="item">
+    <span class="title">Common Name:</span>
+    <span>{{ certificate?.parsedData?.subject?.commonName }}</span>
+  </div>
+  <div class="item">
+    <span class="title">Issuer CN:</span>
+    <span>{{ certificate?.parsedData?.issuer?.commonName }}</span>
+  </div>
+  <div class="item">
+    <span class="title">Valid From:</span>
+    <span>{{ certificate?.parsedData?.validity?.notBefore | date: 'yyyy-MM-dd' }}</span>
+  </div>
+  <div class="item">
+    <span class="title">Valid To:</span>
+    <span>{{ certificate?.parsedData?.validity?.notAfter | date: 'yyyy-MM-dd' }}</span>
+  </div>
+  <div class="download" (click)="handleDownload()">Завантажити</div>
+</div>

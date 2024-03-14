@@ -1,0 +1,14 @@
+<div>
+  <div *ngIf="data.length > 0; else elseBlock">
+    <app-certificate-list-item
+      *ngFor="let item of data"
+      [selected]="item.serialNumber === selectedId"
+      [title]="item.commonName"
+      (click)="handleClick(item.serialNumber)"
+      (delete)="handleDelete(item.serialNumber)"
+    ></app-certificate-list-item>
+  </div>
+  <ng-template #elseBlock>
+    <div>Немає жодного сертифікату</div>
+  </ng-template>
+</div>

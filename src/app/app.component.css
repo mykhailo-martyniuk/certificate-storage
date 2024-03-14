@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  padding: 50px;
+  gap: 40px
+}
+
+main > * {
+  flex: 1
+}
+
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}

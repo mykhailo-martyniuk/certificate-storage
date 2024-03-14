@@ -1,0 +1,6 @@
+<div class="wrapper" (drop)="onDrop($event)" (dragover)="onDragOver($event)">
+  <p>Перетягніть файл сертефікату сюди</p>
+  <p>або</p>
+  <app-button (click)="fileInput.click()" title="Виберіть через стандартний діалог"></app-button>
+  <input type="file" #fileInput (change)="onFileSelected($event)" style="display: none" />
+</div>

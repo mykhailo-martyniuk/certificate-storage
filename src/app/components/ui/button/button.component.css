@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  justify-content: center;
+}
+button {
+  min-width: 110px;
+  padding: 6px 24px;
+  border-radius: 4px;
+  background-color: #EBEBEB;
+  border: 1px solid #232323;
+  cursor: pointer;
+}

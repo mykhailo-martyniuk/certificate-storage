@@ -1,0 +1,22 @@
+.wrapper{
+  position: relative;
+  border: 1px solid #232323;
+  padding: 30px 30px 50px 30px;
+  min-height: 300px;
+}
+
+.item {
+  display: flex;
+  gap: 4px;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.download{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
